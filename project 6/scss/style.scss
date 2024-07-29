@@ -1,0 +1,448 @@
+@use 'var';
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-section {
+    background-color: var.$off-white;
+
+    .container {
+        .navbar {
+            ul {
+                gap: 20px;
+
+                li {
+                    font-size: 16px;
+                    font-weight: 500;
+
+                }
+            }
+        }
+    }
+}
+
+.hero-section {
+    background-color: #F5F7FA;
+    padding: 96px 114px;
+
+    .container {
+
+
+        .hero-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .hero-heading {
+                h2 {
+                    font-size: 64px;
+                    font-weight: 600;
+
+                    span {
+                        color: #459E47;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #717171;
+                    margin: 16px 0px 32px 0px;
+
+                }
+
+                button {
+                    background-color: #459E47;
+                }
+            }
+        }
+    }
+}
+
+.about-section {
+    margin: 40px;
+
+    .container {
+        text-align: center;
+
+        .about-heading {
+            h3 {
+                font-size: 36px;
+                font-weight: 600;
+                color: #4D4D4D;
+
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: #717171;
+                margin: 8px 0px 16px 0px;
+            }
+        }
+
+        .about-img {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+.manage-section {
+    margin: 60px 0px;
+
+    .container {
+        .manage-heading {
+            text-align: center;
+
+            h2 {
+                font-size: 36px;
+                font-weight: 600;
+                color: #4D4D4D;
+                // line-height: 24px;
+
+
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                margin: 8px 0px 16px 0px;
+                color: #717171;
+            }
+
+        }
+
+        .manage-cards {
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .cards {
+                text-align: center;
+                max-width: 250px;
+                // border: 1px solid black;
+                border-radius: 5px;
+                box-shadow: 0px 0px 1px 0px rgb(191, 193, 193);
+
+                img {
+                    width: 20%;
+                    height: 20%;
+                    // text-align: center;
+                }
+
+                h4 {
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #4D4D4D;
+                    line-height: 36px;
+                }
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #717171;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+.experience-section {
+    .container {
+        .experience-div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .experience-content {
+
+                // padding-right: 40px;
+                h2 {
+                    // font-size: 36px;
+                    font-weight: 600;
+                    max-width: 550px;
+                }
+
+                p {
+                    max-width: 600px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 16px 0px 32px 0px;
+                }
+
+                button {
+                    background-color: #459E47;
+                }
+            }
+        }
+    }
+}
+
+.help-section {
+    background-color: #F5F7FA;
+    padding: 64px 112px;
+
+    .container {
+        .help-content {
+            .help-heading {
+                h2 {
+                    font-size: 36px;
+                    font-weight: 400;
+
+                    span {
+                        color: #459E47;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+
+            .icon {
+                a {
+                    color: #459E47;
+                    font-size: 30px;
+                }
+            }
+
+            .numbers {
+                h6 {
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #4D4D4D;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+.design-section {
+    .container {
+        .design-div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .design-content {
+
+                // padding-right: 40px;
+                h2 {
+                    // font-size: 36px;
+                    font-weight: 600;
+                    max-width: 550px;
+                }
+
+                p {
+                    max-width: 600px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 16px 0px 32px 0px;
+                }
+
+                button {
+                    background-color: #459E47;
+                }
+            }
+        }
+    }
+}
+
+.customer-section {
+    background-color: #F5F7FA;
+    padding: 64px 0px;
+
+    .container {
+        .customer-content {
+            display: flex;
+            justify-content: space-between;
+            margin: 33px 0px;
+
+            .customer-img {
+                width: 40%;
+            }
+
+            .contents {
+                width: 60%;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #717171;
+                }
+
+                .title {
+                    h6 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #459E47;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #89939E;
+                    }
+
+                }
+
+                .about-img {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 32px;
+
+                }
+            }
+        }
+    }
+}
+
+.card-section {
+   padding-top: 64px;
+
+    .container {
+    
+        .card-heading {
+            text-align: center;
+
+            h2 {
+                font-size: 36px;
+                font-weight: 600;
+                color: #4D4D4D;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: #717171;
+
+            }
+        }
+
+        .card-body {
+            text-align: center;
+            z-index: 1;
+            position: relative;
+            bottom: 100px;
+            width: 317px;
+            height: 176px;
+            background-color: #F5F7FA;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 10px;
+
+            p {
+                font-size: 20px;
+                font-weight: 600;
+                color: #717171;
+            }
+
+            button {
+                font-size: 20px;
+                font-weight: 600;
+                color: #459E47;
+            }
+        }
+    }
+}
+.footer-header{
+    padding: 30px 100px;
+    background-color: #F5F7FA;
+    .container{
+        .content{
+            text-align: center;
+           padding-bottom: 32px;
+            margin: 0;
+
+            h2{
+                font-size: 64px;
+                font-weight: 600;
+                counter-reset: #263238;
+            }
+            button{
+                background-color: #459E47;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.footer-section {
+    padding: 30px 100px;
+    background-color: #263238;
+    .container-fluid {
+        .footer-content {
+        
+            .footer-services {
+                padding: 50px 0px;
+                display: flex;
+                justify-content: space-between;
+               
+                .left-footer{
+                   
+                    p{
+                        margin: 40px 0px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #F5F7FA;
+                    }
+                    .icons{
+                        a{
+                            color: #FFFFFF;
+                    margin: 0px 7px;
+                        }
+                    }
+                }
+                .right-footer{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 80px;
+                    .nav-footer{
+                        h5{
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: #FFFFFF;
+                            margin-bottom: 24px;
+                        }
+                        li{
+                            list-style: none;
+                            margin: 12px 0px;
+                            a{
+                                text-decoration: none;
+                                color: #F5F7FA;
+                                font-size: 14px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
